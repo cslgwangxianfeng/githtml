@@ -1,0 +1,138 @@
+*{margin: 0;padding: 0;}
+img{border:0;}
+ul,li{list-style: none;}
+body{text-align: center;}
+a{text-decoration: none;}
+
+/*--------header------*/
+#header{width: 1000px;height: 64px;margin: 0 auto 0;position: relative;}
+#headerLogo{display:block;width: 136px;height: 38px;position: absolute;top: 17px;left: 50px;text-align: center;background-image: url("images/3.jpg");background-repeat: no-repeat;}
+
+
+#headerTntro{display: block;width: 144px;height: 28px;background-image: url("images/2.jpg");background-position: 0 -64px;position: absolute;left: 194px;top: 17px;}
+#headerNav{width: 400px;height: 20px;position: absolute;left: 550;top: 21px;}
+.headerNavStyle{color:#959595;font-family: verdana;font-size: 12px;line-height: 20px;text-align: right;}
+.fgt{color: #959595;font-family: verdana;font-size: 12px;}
+/*--------header  end------*/
+
+
+
+
+
+
+
+
+
+/*--------mainBg------*/
+#mainBg{width: 1200px;height: 600px;margin: 0 auto 0;background-repeat: repeat-x;}
+#mainCnt{width: 1000px;height: 600px;margin: 0 auto 0;position: relative;z-index: 1;}
+#themeCtrl{width: 64px;height: 25px;position: absolute;left: 836px;top:563px ;}
+#prevtheme{display: block;width: 25px;height: 25px;margin-right: 7px;float: left;background-image: url("images/2.jpg");background-position: 0 -492px;cursor: pointer;}
+#nexttheme{display: block;width: 25px;height: 25px;margin-right: 7px;float: left;background-image: url("images/2.jpg");background-position: -35px -492px;cursor: pointer;}
+
+.mainBgstyle1{background-image: url("images/12.jpg"); }
+.mainCntstyle1{background-image: url("images/13.jpg"); }
+
+.mainBgstyle2{background-image: url("images/14.jpg"); }
+.mainCntstyle2{background-image: url("images/15.jpg"); }
+
+.mainBgstyle3{background-image: url("images/16.jpg"); }
+.mainCntstyle3{background-image: url("images/17.jpg"); }
+
+.mainBgstyle4{background-image: url("images/6.jpg"); }
+.mainCntstyle4{background-image: url("images/8.jpg"); }
+
+.mainBgstyle5{background-image: url("images/18.jpg"); }
+.mainCntstyle5{background-image: url("images/19.jpg"); }
+
+.mainBgstyle6{background-image: url("images/20.jpg"); }
+.mainCntstyle6{background-image: url("images/21.jpg"); }
+
+
+#loginBlock{width: 295px;height: 392px;padding: 13px 14px 15px 14px;position: absolute;left: 599px; top: 65px;background-image: url("images/7.png");}
+#loginBlock1{width: 295px;height: 392px;padding: 13px 14px 15px 14px;position: absolute;left: 599px; top: 65px;background-image: url("images/7.png");background-position: -323px 0;display: none;}
+.loginFunc{width: 295px;height: 47px;}
+.lbNormal{width: 147px;height: 47px;font-family:verdana ;font-size:14px;cursor: pointer;text-align: center;float: left;color: #626262;line-height: 46px;}
+.lbMob{width: 147px;height: 47px;font-family:verdana ;font-size:14px;cursor: pointer;text-align: center;float: left;color: #626262;line-height: 46px;}
+
+
+.loginForm{width: 295px;height: 313px;padding: 40px 0 0 0;position:relative;}
+.login163{width: 295px;height: 225px;}
+.idInputLine{width: 245px;height: 42px;margin:0 0 20px 25px;position: relative;background-image: url("images/2.jpg"); background-position:0 -352px;}
+#idPic{display: block; width: 14px;height: 16px; background-image: url("images/2.jpg");background-position: -154px -64px;float: left;position: absolute;top: 12px;left: 5px;}
+#idPic1{display: block; width: 14px;height: 16px; background-image: url("images/2.jpg");background-position: -200px -64px;float: left;position: absolute;top: 12px;left: 5px;}
+#idInput{display: block; width: 205px;height: 38px;padding: 9px 0 10px 0;margin:2px 0 0 25px; font-size: 14px;font-family: verdana;line-height: 17px;float: left;border:0px ;border-radius: 5px;background-image: url("images/10.jpg");background-repeat: no-repeat;}
+#idInput1{display: block; width: 205px;height: 38px;padding: 9px 0 10px 0;margin:2px 0 0 25px; font-size: 14px;font-family: verdana;line-height: 17px;float: left;border:0px ;border-radius: 5px;background-image: url("images/7.jpg");background-repeat: no-repeat;}
+
+.showdomain{display: block;width: 80;height: 33px;background-image: url("images/2.jpg");background-position:0 -112px; position: absolute;left:150px;top:4px;}
+
+
+
+.pwdInputLine{width: 245px;height: 42px;margin:0 0 20px 25px;position: relative;line-height: 42px;background-image: url("images/2.jpg"); background-position:0 -352px; }
+.pwdPic{display: block; width: 14px;height: 16px; background-image: url("images/2.jpg");background-position: -178px -64px;float: left;position: absolute;top: 12px;left: 5px;}
+#pwdInput{display: block; width: 205px;height: 38px;padding: 9px 0 10px 0;margin:2px 0 0 25px; font-size: 14px;font-family: verdana;line-height: 17px;float: left;border:0px ;border-radius: 5px;background-image: url("images/9.jpg");background-repeat: no-repeat;}
+#pwdInput1{display: block; width: 205px;height: 38px;padding: 9px 0 10px 0;margin:2px 0 0 25px; font-size: 14px;font-family: verdana;line-height: 17px;float: left;border:0px ;border-radius: 5px;background-image: url("images/9.jpg");background-repeat: no-repeat;}
+
+
+
+.loginFormcheck{width: 245px;height: 13px;margin-left:25px;line-height: 13px;font-family: verdana;font-size: 12px;text-align: left;color: #848585;}
+.loginFormcheckicon{display: block;width: 16px;height: 15px;background-image: url("images/2.jpg");background-position:-40px -160px;float: left;}
+.loginFormcheckleft{width: 134px;height: 15px;float: left;}
+.loginFormcheckright{display: block;width: 72px;height: 15px;float: right;color: #848585;font-size: 12px;text-align: right;}
+
+
+
+.loginFormbtn{width: 245px;height: 43px;margin:18px 0 0 25px;position: relative;}
+.loginbtn{display: block; width: 110px;height: 38px;line-height: 38px; text-align: center;background-image: url("images/2.jpg");background-position: 0 -208px;border-radius: 3px;border: 0px;font-family: verdana;font-size: 14px;color: #fff;float: left;font-weight: 700;cursor: pointer;}
+.lfbtnreg{display: block; width: 110px;height: 38px;line-height: 38px; text-align: center;background-color: #cae7f4; border-radius: 3px;border: 1px solid #ccc;font-family: verdana;font-size: 14px;color: #347bc7;float: right;font-weight: 700;cursor: pointer;}
+
+
+
+.loginFormConf{width: 245px;height: 12px;margin:15px 0 0 25px;position: relative;line-height: 12px;color: #848585;font-size: 12px;font-family: verdana;text-align: left;}
+.loginFormVer{width: 160px;height: 14px; float: left;position: relative;}
+
+
+.Confmenudd{width:140px;height: 72px; position: absolute;left:30px;top: -5px; display: none;background-color: #fff;border-radius: 6px;z-index: 10;}
+
+.Conftypetext{width: 115px;height: 24px;float: left;padding-left: 25px;line-height: 16px;color: #426aec;font-size: 12px;font-family: verdana;text-align: left;font-weight: bold;background-image: url("images/13.png");background-repeat: no-repeat;}
+.Conftypetext:hover{background-color: #d2eae2;}
+.Conftypetext1{width: 115px;height: 24px;float: left;padding-left: 25px;line-height: 16px;color: #424d6a;font-size: 12px;font-family: verdana;text-align: left;font-weight: bold;}
+.Conftypetext1:hover{background-color: #d2eae2;}
+
+.Conftext{float: left;}
+.styleConf{color: #848585;display: block;width: 59px;height: 15px;float: left;margin-left: 5px;}
+.Conficon{display: block;width: 7px;height: 15px;background-image: url("images/2.jpg"); background-position:-160px -110px;float: right; }
+
+.loginSSL{display: block;width: 83px;height: 12px;float: right;}
+
+
+
+
+
+
+
+
+
+.loginExt{width: 295px;height: 64px;position: absolute;left: 0;top:289px; }
+.extText{display: block;width: 270px;height: 33px;margin: 15px 0 0 25px;}
+
+
+.extTextMain{display: block;width: 263px;height: 12px;padding: 0 0 0 7px;margin:0 0 9px 0; background-image: url("images/2.jpg");background-position: -240px -123px;background-repeat: no-repeat;text-align: left;line-height: 12px;}
+.extTextMain1{display: block;width: 263px;height: 12px;padding: 0 0 0 7px;margin:0 0 9px 0;text-align: left;line-height: 12px;}
+.gadext{color: #9aacc7;font-size: 12px;font-family: verdana;float: left;}
+.gadext2{color: #9aacc7;font-size: 12px;font-family: verdana;float: left;line-height: 20px;}
+#gadext1{display: block;width: 122px;height: 20px;line-height: 20px; color: #9aacc7;font-size: 12px;font-family: verdana;background-image: url("images/2.jpg");background-position: 97px -156px;float: left;}
+/*--------mainBg  end------*/
+
+
+/*--------footer------*/
+#footer{width: 1200px;height: 65px;margin: 0 auto 0;}
+#footerMain{width: 1000px;height: 63px;margin: 0 auto 0; position: relative;}
+#footerLogo{display: block; width: 122px;height: 50px;position: absolute;left: 35px;top:11px;background-image: url("images/4.jpg");}
+#footerNav{width: 606px;height: 20px;position: absolute;left:268px ;top: 25px;text-align: center;}
+.footerNavStyle{float: left; color: #959595;font-family:verdana;font-size: 12px;line-height: 20px; text-align: center;margin-left:14px;}
+#fg{color: #959595;font-family: verdana;font-size: 12px;line-height: 20px;float: left;}
+#footerNavStyle1{float: left; color: #959595;font-family:verdana;font-size: 12px;line-height: 20px; text-align: center;margin-left:14px;margin-right: 24px;}
+#footerNavStyle2{float: left;display: block;width: 185px;height: 15px; color: #959595;font-family:verdana;font-size: 12px;line-height: 20px; text-align: center;margin-left:22px;}
+#footerKX{display: block; width: 57px;height: 25px;position: absolute;left: 893px;top:24px;background-image: url("images/5.jpg");text-align: center; }
+/*--------footer  end------*/

@@ -1,0 +1,81 @@
+*{margin: 0;padding: 0;}
+img{border:0;}
+ul,li{list-style: none;}
+body{text-align: center;}
+a{text-decoration: none;}
+
+#wapper{width: 1200px;height: 858px;margin: 0 auto 0;background-image: url("images/1.jpg");background-position: 50% 0;background-repeat: no-repeat;}
+#top{width: 960px;height: 119px;margin: 0 auto 0;background-image: url("images/4.jpg");}
+#logo{width: 960px;height: 76px;background-image: url("images/3.jpg");}
+#redGame{width: 960px;height: 36px;margin-top: 2px;position: relative;}
+#redGamel{display: block;float: left; width: 158px;height: 16px;margin-left: 30px;font-family: arial;font-size: 13px;font-weight: 700;line-height: 36px;color: #fff;}
+#redGamer{position: absolute;left: 335px;top: 0px; display: block; width: 568px;height: 15px;font-family: arial;font-size: 12px;font-weight: 400;line-height: 36px;color: #fff;}
+.redGamera{display: block;width: 48px;height: 15px;margin: 0 7px;font-family: arial;font-size: 12px;font-weight: 400;line-height: 36px;color: #fff;float: left;}
+.redGamera:hover{text-decoration: underline;}
+
+.fgt{width: 6px;height: 15px;float: left;}
+
+#main{width: 962px;height: 624px;margin: 0 auto 0;}
+.gamelist{width: 960px;height: 310px;border: 1px solid #cdcdcd;}
+.gamesbox{width: 229px;height: 300px;padding: 5px;border-right: 1px solid #ccc;float: left;position: relative;}
+.boxtr{width: 63px;height: 55px;position: absolute;left: 171px;top: 5px;background-image: url("images/2.png");background-position: 0 0;z-index: 20;}
+#boxtr1{width: 63px;height: 55px;position: absolute;left: 171px;top: 5px;background-image: url("images/2.png");background-position: 0 -116px;z-index: 20;}
+#boxtr2{width: 63px;height: 55px;position: absolute;left: 171px;top: 5px;background-image: url("images/2.png");background-position: 0 -232px;z-index: 20;}
+#boxtr3{width: 63px;height: 55px;position: absolute;left: 171px;top: 5px;background-image: url("images/2.png");background-position: 0 -174px;z-index: 20;}
+#boxtr4{width: 63px;height: 55px;position: absolute;left: 171px;top: 5px;background-image: url("images/2.png");background-position: 0 -58px;z-index: 20;}
+
+
+
+.gamesblock{width: 229px;height: 240px;overflow: hidden;position: relative;}
+.gamesblockMain{width: 229px;height: 480px;position: absolute;left: 0px;top: 0px;}
+#gamesblocka1{display: block; width: 228px;height: 240px;background-image: url("images/5.jpg");}
+#gamesblocka2{display: block; width: 228px;height: 240px;background-image: url("images/7.jpg");}
+#gamesblocka3{display: block; width: 228px;height: 240px;background-image: url("images/9.jpg");}
+#gamesblocka4{display: block; width: 228px;height: 240px;background-image: url("images/11.jpg");}
+#gamesblocka5{display: block; width: 228px;height: 240px;background-image: url("images/13.jpg");}
+#gamesblocka6{display: block; width: 228px;height: 240px;background-image: url("images/15.jpg");}
+#gamesblocka7{display: block; width: 228px;height: 240px;background-image: url("images/17.jpg");}
+#gamesblocka8{display: block; width: 228px;height: 240px;background-image: url("images/19.jpg");}
+
+.gamesdetail{width: 205px;height: 216px;padding: 12px;}
+.title{width: 205px;height: 88px;}
+.titlea{width: 205px;height: 85px;font-size: 12px;font-family: 微软雅黑;font-weight: 400; line-height: 20px;color: #666;text-align: left;}
+.titlea:hover{text-decoration: underline;color:#0983eb; }
+
+.titleh4{width: 205px;height:20px;margin-bottom: 7px;font-size: 14px;font-weight: 700;}
+
+
+
+.description{width: 205px;height: 32px;}
+.descriptionp{width: 205px;height: 16px;position: relative;color: #333;font-size: 12px;font-family: arial;font-weight: 400; line-height: 16px;text-align: left;}
+.icon1{display: inline-block; width: 80px;height: 16px;padding-left: 17px;background-image: url("images/1.gif");background-repeat: no-repeat; background-position: 0 -50px; position: absolute;left: 0;top: 0;}
+.descriptiona{width: 57px;height: 15px;color: #0983eb;font-size: 12px;font-family: arial;font-weight: 400; line-height: 16px;}
+.descriptiona:hover{text-decoration: underline;}
+
+
+.lb{width: 228px;height: 100px;}
+#lb1{ display: block;width: 228px;height: 100px; background-image: url("images/6.jpg");}
+.lb2{ display: block;width: 228px;height: 100px; background-image: url("images/8.jpg");}
+.lb3{ display: block;width: 228px;height: 100px; background-image: url("images/10.jpg");}
+.lb4{ display: block;width: 228px;height: 100px; background-image: url("images/12.jpg");}
+#lb5{ display: block;width: 228px;height: 100px; background-image: url("images/14.jpg");}
+
+.detail{width: 229px;height: 59px;}
+.detailtop{width: 206px;height: 30px;margin: auto auto;}
+.detailleft{width: 124px;height: 30px;color: #333;float: left;font-size: 14px;font-family: 微软雅黑;font-weight: 700;line-height: 30px;text-align: left;}
+.detailright{width: 82px;height: 30px;color: #333;float: left;font-size: 12px;font-family: 微软雅黑;font-weight: 400;line-height: 30px;text-align: center;}
+
+.actions{width: 220px;height: 24px;margin: 0 3px 4px 3px;border: 1px solid #ccc;}
+.actionsleft{display: inline-block; width: 110px;height: 24px;border: 1px solid #0983eb;margin: -1px;background-image: url("images/1.png");background-position: 50% 50%;font-size: 12px;font-family: arial;font-weight: 400;line-height: 24px;color: #fff;text-align: center;}
+.actionsleft:hover{text-decoration: underline;}
+.actionsright{display: inline-block;width: 99px;height: 24px;font-size: 12px;font-family: arial;font-weight: 400;line-height: 24px;color: #000;text-align: center;}
+.actionsright:hover{text-decoration: underline;}
+
+
+
+
+
+
+#foot{width: 1200px;height: 100px;margin: 0 auto 0;padding-top: 15px;}
+#bottomlogo{width: 960px;height: 49px;margin: 0 auto 0; background-image: url("images/2.jpg");background-repeat: no-repeat;color: #666;font-size: 12px;font-weight: 400;font-family: arial;text-align: center;line-height: 49px;}
+#bottom{width: 1200px;height: 0;padding-top: 30px;}
