@@ -13,7 +13,7 @@ a{text-decoration: none;}
 .fgf{display: inline-block;width: 5px;height: 15px;margin: 5px 8px 0 8px;font-size: 12px;font-weight: 400;color: #c0c0c0;line-height: 18px;float: left;}
 #linkhelps{display: inline-block;width:24px;height: 18px;margin-top: 5px;padding-right: 12px;color: #3c92c9;font-size: 12px;font-family: 宋体;font-weight: 400;line-height: 18px;float: left;position: relative;}
 #linkhelps:hover{text-decoration: underline;}
-#linkhelpspic{display: block;width: 16px;height: 18px;position: absolute;left: 25px;top: 0px;background-image: url("images/40.jpg");background-repeat: no-repeat;}
+.wpbanli{cursor: pointer;}
 
 #navlinks{display: inline-block;width: 48px;height: 24px;margin-left: 10px;padding: 0 10px 0 30px;background-image: url("images/1.png");background-position: 0 -133px;background-repeat: no-repeat;font-size: 12px;font-family: 宋体;font-weight: 400;line-height: 24px;color: #fff; float: left;}
 #navlinks:hover{opacity: 0.7;}
@@ -108,12 +108,12 @@ a{text-decoration: none;}
 #wpbanmainpic5m{width: 960px;height: 359px;margin: 0 auto;background-image: url("images/24.jpg");position: relative;}
 #wpbanmainpic5s{width: 960px;height:359px; margin: 0 auto;background-image: url("images/9.png");position: absolute;left: 0px;top: 0px;}
 
-#wpbanul{width: 115px;height: 13px;position: absolute;left: 390px;top: 325px;background-color: #fff;}
-#wpbanli1{display: block; width: 13px;height: 13px;margin: 0 5px;float: left;border-radius: 5px;background-image: url("images/35.jpg");background-repeat: no-repeat;}
-#wpbanli2{display: block; width: 13px;height: 13px;margin: 0 5px;float: left;border-radius: 5px;background-image: url("images/36.jpg");background-repeat: no-repeat;}
-#wpbanli3{display: block; width: 13px;height: 13px;margin: 0 5px;float: left;border-radius: 5px;background-image: url("images/36.jpg");background-repeat: no-repeat;}
-#wpbanli4{display: block; width: 13px;height: 13px;margin: 0 5px;float: left;border-radius: 5px;background-image: url("images/36.jpg");background-repeat: no-repeat;}
-#wpbanli5{display: block; width: 13px;height: 13px;margin: 0 5px;float: left;border-radius: 5px;background-image: url("images/36.jpg");background-repeat: no-repeat;}
+#wpbanul{width: 115px;height: 13px;position: absolute;left: 390px;top: 325px;background-color:transparent;}
+#wpbanli1{display: block; width: 13px;height: 13px;margin: 0 5px;float: left;border-radius: 5px;background-image: url("images/35.png");background-repeat: no-repeat;}
+#wpbanli2{display: block; width: 13px;height: 13px;margin: 0 5px;float: left;border-radius: 5px;background-image: url("images/36.png");background-repeat: no-repeat;}
+#wpbanli3{display: block; width: 13px;height: 13px;margin: 0 5px;float: left;border-radius: 5px;background-image: url("images/36.png");background-repeat: no-repeat;}
+#wpbanli4{display: block; width: 13px;height: 13px;margin: 0 5px;float: left;border-radius: 5px;background-image: url("images/36.png");background-repeat: no-repeat;}
+#wpbanli5{display: block; width: 13px;height: 13px;margin: 0 5px;float: left;border-radius: 5px;background-image: url("images/36.png");background-repeat: no-repeat;}
 
 
 
@@ -287,3 +287,7 @@ a{text-decoration: none;}
 #footpa3:hover{text-decoration: underline;}
 .footp{width: 960px;height: 19px;}
 #footps{display: block;float: left;}
+
+
+#comeback{display: block;width: 40px;height: 40px;background-image: url("images/1.png");background-position: -188px 0;position: absolute;left: 1200px;top:300px;z-index: 100;cursor: pointer;display:none;}
+#comeback:hover{background-position: -229px 0;}

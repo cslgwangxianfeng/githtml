@@ -59,9 +59,31 @@ a{text-decoration: none;}
 
 
 #intro{width: 968px;height: 424px;margin-bottom: 44px;position: relative;}
-#intropic{width: 490px;height: 373px;position: absolute;left: 420px;top: 10px; border: 1px solid #ccc;}
-#intropicMain{width: 1470px;height: 373px;position: absolute;left: 0;top: 0px;}
 
+#introMain{width: 490px;height: 373px;position: absolute;left: 420px;top: 10px;}
+#intropic{width: 490px;height: 373px;position: absolute;left: 0px;top: 10px; overflow: hidden;}
+#intropicMain{width: 1470px;height: 373px;position: absolute;left: 0;top: 0px;}
+.intropicMainpic{width: 490px;height: 373px;float: left; }
+#intropicMainpic1{width: 490px;height:280px;margin-top: 20px;background-image: url("images/5.png");}
+#intropicMainpic2{width: 490px;height:281px;margin-top: 20px;background-image: url("images/6.png");}
+#intropicMainpic3{width: 490px;height:280px;margin-top: 20px;background-image: url("images/7.png");}
+
+
+.intropicMainpicc{display: block; width: 490px;height: 60px;margin: 4px 0;color: #000;font-size: 14px;line-height: 20px;font-family: verdana;text-align: center;}
+.intropicMainpicca{color: #609700;font-size: 14px;line-height: 20px;font-family: verdana;text-align: center;}
+.intropicMainpicca:hover{text-decoration: underline;}
+
+#introMainul{width: 78px;height: 26px;position: absolute;left: 220px;top: 380px;}
+.dota{display: block;width: 22px;height: 22px;float: left;background-image: url("images/8.png");cursor: pointer;}
+#dot1{background-position:-12px -110px;}
+#dot2{background-position:-36px -110px;}
+#dot3{background-position:-36px -110px;}
+
+
+#pre{display: block; width: 42px;height: 42px;background-image: url("images/8.png");background-position: -16px -59px;position: absolute;left: -42px;top: 190px;z-index: 99;display: none;cursor: pointer;}
+#pre:hover{background-position: -16px -12px;}
+#next{display: block; width: 42px;height: 42px;background-image: url("images/8.png");background-position: -68px -59px;position: absolute;left:490px;top: 190px;z-index: 99;display: none;cursor: pointer;}
+#next:hover{background-position: -68px -12px;}
 
 #h1title{width: 968px;height: 35px;padding: 45px 0 3px 0;}
 #h1titles{display: block;width: 260px;height: 35px;text-align: left;font-size: 26px;font-weight: 400;font-family: 微软雅黑;}

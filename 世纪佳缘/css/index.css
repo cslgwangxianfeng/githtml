@@ -81,8 +81,16 @@ a{text-decoration: none;}
 .f1btn2{display: block;width: 22px;height: 22px;background-image: url("images/25.jpg");float: left;cursor: pointer;}
 .f1text{display: block;width: 30px;height: 22px;float: left;text-align: left;}
 
-.f2{width: 276px;height: 22px;}
-.f3{width: 164px;height: 22px;}
+.f2{width: 276px;height: 22px;float: left;}
+.f2s{width: 71px;height: 20px;background-image: url("images/28.jpg");float: left;}
+.f2content{width: 20px;height: 22px;float: left;}
+
+
+
+
+.f3{width: 164px;height: 22px;float: left;}
+#f3content{width: 20px;height: 22px;float: left;}
+
 .f4{width: 52px;height: 22px;font-size: 12px;float: left;margin-right: 10px;}
 #regbtn{display: block; width: 129px;height: 39px;margin: 20px auto 0 auto;background-image: url("images/12.png");background-position: 0 -48px;}
 #userlogin{width: 364px;height: 22px;padding: 10px 0;}
