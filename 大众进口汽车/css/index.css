@@ -7,7 +7,91 @@ a{text-decoration: none;}
 
 #wapper{width: 962px;height: 1385px;padding: 0 15px;margin: 0 auto;}
 #header{width: 960px;height: 114px;margin: 0 1px -3px 1px;}
-#content{width: 960px;height: 485px;border: 1px solid #cfd7d9;border-top: 0px;background-image: url("images/1.jpg");position: relative;z-index: 10;}
+#content{width: 960px;height: 485px;border: 1px solid #cfd7d9;border-top: 0px;background-image: url("images/1.jpg");position: relative;z-index: 10;overflow: hidden;}
+#selector{width: 924px;height: 482px;margin:0 18px;position:absolute;left:0px;top:-446px;z-index: 20;}
+#selectorcontent{width: 904px;height: 436px;padding:10px 10px 0 10px; background-color: #fff;}
+#selectorcontentMain{width: 904px;height: 436px;position: relative;overflow: hidden;}
+#maskinner{width: 924px;height: 404px;background-color: transparent;}
+.innerlifirst{width: 134px;height: 81px;padding: 20px 20px 0 0;background-image: url("images/4.png");background-repeat: no-repeat;float: left;position: relative;}
+.maskinnerli{width: 134px;height: 81px;padding: 20px 20px 0 0;background-image: url("images/3.png");background-repeat: no-repeat;float: left;position: relative;}
+.innerlilast{width: 134px;height: 81px;padding-top: 20px;margin-right: 20px; background-image: url("images/3.png");background-repeat: no-repeat;float: left;position: relative;}
+.maskinnera{display: block;width: 120px;height: 81px;position: absolute;left: 0px;top:20px;background-image: url("images/5.png");background-repeat:no-repeat;}
+#a1{background-position: 0 0;}
+#a1:hover{background-position:0 -101px;}
+#a2{background-position: -140px 0;}
+#a2:hover{background-position:-140px -101px;}
+#a3{background-position: -280px 0;}
+#a3:hover{background-position:-280px -101px;}
+#a4{background-position: -420px 0;}
+#a4:hover{background-position:-420px -101px;}
+#a5{background-position: -560px 0;}
+#a5:hover{background-position:-560px -101px;}
+#a6{background-position: -700px 0;}
+#a6:hover{background-position:-700px -101px;}
+#a7{background-position: -840px 0;}
+#a7:hover{background-position:-840px -101px;}
+#a8{background-position: -980px 0;}
+#a8:hover{background-position:-980px -101px;}
+#a9{background-position: -1120px 0;}
+#a9:hover{background-position:-1120px -101px;}
+#a10{background-position: -1260px 0;}
+#a10:hover{background-position:-1260px -101px;}
+#a11{background-position: -1400px 0;}
+#a11:hover{background-position:-1400px -101px;}
+#a12{background-position: -1540px 0;}
+#a12:hover{background-position:-1540px -101px;}
+#a13{background-position: -1680px 0;}
+#a13:hover{background-position:-1680px -101px;}
+#a14{background-position: -1820px 0;}
+#a14:hover{background-position:-1820px -101px;}
+#a15{background-position: -1960px 0;}
+#a15:hover{background-position:-1960px -101px;}
+#a16{background-position: -2100px 0;}
+#a16:hover{background-position:-2100px -101px;}
+#a17{background-position: -2240px 0;}
+#a17:hover{background-position:-2240px -101px;}
+#a18{background-position: -2380px 0;}
+#a18:hover{background-position:-2380px -101px;}
+#a19{background-position: -2520px 0;}
+#a19:hover{background-position:-2520px -101px;}
+#a20{background-position: -2660px 0;}
+#a20:hover{background-position:-2660px -101px;}
+#a21{background-position: -2800px 0;}
+#a21:hover{background-position:-2800px -101px;}
+#a22{background-position: -2940px 0;}
+#a22:hover{background-position:-2940px -101px;}
+#a23{background-position: -3080px 0;}
+#a23:hover{background-position:-3080px -101px;}
+#a24{background-position: -3220px 0;}
+#a24:hover{background-position:-3220px -101px;}
+#a25{background-position: -3360px 0;}
+#a25:hover{background-position:-3360px -101px;}
+
+
+
+
+
+
+
+
+
+
+
+#first1{background-position: 0 0;}
+#first2{background-position: -200px 0;}
+#first3{background-position: -400px 0;}
+#first4{background-position: -600px 0;}
+#first5{background-position: -800px 0;}
+
+
+
+
+#selectorbtn{width: 190px;height: 36px;margin: 0 auto;background-color: transparent;}
+#selectorbtna{display: block;width: 190px;height: 36px;background-image: url("images/2.png");background-position: 0 0;cursor: pointer;}
+
+
+
+
 #yuyue{display: block;width: 143px;height: 23px;background-image: url("images/1.png");position: absolute;left: 25px;top:64px;}
 #yuyue:hover{background-position: 0 -44px;}
 #contentul{width: 960px;height: 124px;position: absolute;left: 0px;top:356px; }

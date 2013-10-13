@@ -1,11 +1,11 @@
 $(function(){
+
     initEleEvents();	
+
 });
 
-
-
 function initEleEvents(){
-	$("#a1").mouseover(function(){
+	$("#contenta1").mouseover(function(){
 		$("#li1").css({
 			"width":"206px",
 			"height":"104px",
@@ -44,7 +44,7 @@ function initEleEvents(){
         $("#li4").css("left","581px");
         $("#li5").css("left","767px");
     })
-    $("#a2").mouseover(function(){
+    $("#contenta2").mouseover(function(){
     	$("#li1").css("left","38px");
 		$("#li2").css({
 			"width":"206px",
@@ -66,7 +66,7 @@ function initEleEvents(){
 			"top":"48px"
 		});
 	})
-    $("#a3").mouseover(function(){
+    $("#contenta3").mouseover(function(){
     	$("#li1").css({
 			"width":"126px",
 			"height":"64px",
@@ -88,7 +88,7 @@ function initEleEvents(){
 			"top":"48px"
 		});
 	})
-	$("#a4").mouseover(function(){
+	$("#contenta4").mouseover(function(){
 		$("#li1").css({
 			"width":"126px",
 			"height":"64px",
@@ -110,7 +110,7 @@ function initEleEvents(){
 		});
         $("#li5").css("left","752px");
     })
-    $("#a5").mouseover(function(){
+    $("#contenta5").mouseover(function(){
     	$("#li1").css({
 			"width":"126px",
 			"height":"64px",
@@ -137,7 +137,42 @@ function initEleEvents(){
 			"top":"7px"
 		});
 	})
+    $("#selectorbtna").mouseover(function(){
+    	var flag=$(this).attr("openflag");
+    	if (flag=="no") {
+    		$("#selectorbtna").css("background-position","0 -57px");
+    	}else{
+    		$("#selectorbtna").css("background-position","0 -171px");
+    	}
+    		
+    	
+    })
+    $("#selectorbtna").mouseout(function(){
+    	var flag=$(this).attr("openflag");
+    	if (flag=="no") {
+    		$("#selectorbtna").css("background-position","0 0px");
+    	}else{
+    		$("#selectorbtna").css("background-position","0 -114px");
+    	}	
+    })
+
+
+	$("#selectorbtna").click(function(){
+		var flag=$(this).attr("openflag");
+		if (flag=="no") {
+			$("#selectorbtna").attr("openflag","yes");
+			$("#selector").animate({"top":"1px"},500,function(){
+				$("#selectorbtna").css("background-position","0 -114px");
+			})
+		}else{
+			$("#selectorbtna").attr("openflag","no");
+			$("#selector").animate({"top":"-446px"},500,function(){
+				$("#selectorbtna").css("background-position","0 0");
+			})
+		}
+
+	});
    
 	
 };
-    
+   
