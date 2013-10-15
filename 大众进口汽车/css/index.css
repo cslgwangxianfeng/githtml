@@ -9,6 +9,34 @@ a{text-decoration: none;}
 #header{width: 960px;height: 114px;margin: 0 1px -3px 1px;position: relative;}
 #logo{display: block;width: 87px;height: 78px;background-image: url("images/2.jpg");background-repeat: no-repeat;position: absolute;left: 0px;top: 22px;}
 #ul1{width: 396px;height: 16px;position: absolute;left: 128px;top: 72px;}
+#ul1li1{width: 50px;height: 16px;float: left;position: relative;}
+.ul1li{width: 50px;height: 16px;margin-left: 9px;padding-left: 10px;float: left;background-image: url("images/7.png");background-position: -359px -140px;position: relative;}
+.ul1a{display: block;width: 50px;height: 16px;background-image: url("images/9.png");background-repeat: no-repeat;}
+#ul1a1{background-position: 0 0;}
+#ul1a1:hover{background-position: 0 -26px;}
+#ul1a2{background-position: 0 -88px;}
+#ul1a2:hover{background-position: 0 -114px;}
+#ul1a3{background-position: 0 -176px;}
+#ul1a3:hover{background-position: 0 -202px;}
+#ul1a4{background-position: 0 -264px;}
+#ul1a4:hover{background-position: 0 -290px;}
+#ul1a5{background-position: 0 -352px;}
+#ul1a5:hover{background-position: 0 -378px;}
+#ul1a6{background-position: 0 -528px;}
+#ul1a6:hover{background-position: 0 -554px;}
+
+.headerul{width: 200px;padding-top: 11px;position: absolute;left: -19px;top:16px;background-color: #fff;z-index: 20;display: none;}
+#headerul1{height: 660px;}
+#headerul2{height: 127px;}
+#headerul3{height: 243px;}
+#headerul4{height: 127px;}
+#headerul5{height: 127px;}
+#headerul6{height: 127px;}
+.headerli{width: 180px;height: 23px;padding: 0 10px;}
+.headera{display: block;width: 160px;height: 14px;padding: 5px 10px 3px 10px ;border-bottom: 1px solid #cfd7d9;color: #33434c;font-family: arial;font-size: 12px;line-height: 14px;text-align: left;}
+.headera:hover{background-color: #ccc;}
+
+
 #ul2{width: 378px;height: 22px;position: absolute;left: 585px;top: 69px;}
 .ul2li{width: 126px;height: 22px;float: left;}
 .ul2a{display: block;width: 122px;height: 22px;background-image: url("images/6.png");background-repeat: no-repeat;}
@@ -22,9 +50,15 @@ a{text-decoration: none;}
 #ul2a3:hover{background-position: 0 -180px;}
 
 #ul3{width: 577px;height: 18px;position: absolute;left:386px;top: 20px;}
-
-
-
+#ul3li1{width: 96px;height: 14px;float: left;}
+.ul3li{height: 14px;margin-left: 9px;padding-left: 10px; float: left;background-image: url("images/7.png");background-repeat: no-repeat;background-position: -339px -160px;}
+#ul3li2{width: 129px;}
+#ul3li3{width: 48px;}
+#ul3li4{width: 24px;}
+#ul3li5{width: 204px;}
+#form{width: 204px;height: 20px;margin-top: -2px;background-image: url("images/8.png");background-repeat: no-repeat;}
+#input{width: 178px;height: 18px;padding: 3px;border-top: 3px solid #ccc;border-left: 0px;border-bottom: 0px; float: left;}
+#btn{display: block; width: 22px;height:20px;float: left;}
 
 
 #content{width: 960px;height: 485px;border: 1px solid #cfd7d9;border-top: 0px;background-image: url("images/1.jpg");position: relative;z-index: 10;overflow: hidden;}
@@ -130,3 +164,20 @@ a{text-decoration: none;}
 #none{width: 972px;height: 45px;}
 #sectionlinks{width: 972px;height: 615px;}
 #footerul{width: 962px;height: 0px;margin-top: 48px;}
+.sectionlinksli{width: 223px;height: 614px;margin-right: 20px;border-top: 1px solid #8994a0;color: #333;float: left;}
+#footer1{width: 223px;height:614px; }
+#footer2{width: 223px;height:127px;}
+#footer3{width: 223px;height:213px;}
+#footer4{width: 223px;height:127px;}
+.footers{display: block;width: 223px;height: 14px;padding: 3px 0;border-bottom: 1px solid #8994a0;font-family: 宋体;font-size: 12px;line-height: 14px;font-weight: 700;color: #333;}
+.footerli{width: 223px;height: 20px;border-bottom: 1px solid #cfd7d9;}
+.footerlia{display: block;width: 218px;height: 14px;padding: 3px 0;margin-right: 5px;font-family: 宋体;font-size: 12px;line-height: 14px;font-weight: 400;color:#8994a0 ;}
+.footerlia:hover{color: #2274ac;}
+
+#first{width: 109px;height: 14px;float: left;font-family: arial;font-size: 12px;line-height: 14px;font-weight: 400;color:#8994a0 ; }
+#second{width: 48px;height: 14px;margin-left: 9px;padding-left: 10px; float: left;}
+#third{width: 96px;height: 14px;margin-left: 9px;padding-left: 10px; float: left;}
+#fourth{width: 100px;height: 14px;margin-left: 9px;padding-left: 10px; float: left;}
+#fifth{width: 137px;height: 14px;margin-left: 9px;padding-left: 10px; float: left;}
+.footerula{display: block;height: 14px; font-family: arial;font-size: 12px;line-height: 14px;font-weight: 400;color:#8994a0 ;}
+.footerula:hover{color: #2274ac;}

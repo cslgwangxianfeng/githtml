@@ -5,6 +5,22 @@ $(function(){
 });
 
 function initEleEvents(){
+    $("#ul1li1").mouseover(function(){
+    	$(this).find(".headerul").show();
+    })
+    $("#ul1li1").mouseout(function(){
+    	$(this).find(".headerul").hide();
+    })
+    $(".ul1li").mouseover(function(){
+    	$(this).find(".headerul").show();
+    })
+    $(".ul1li").mouseout(function(){
+    	$(this).find(".headerul").hide();
+    })
+
+
+
+
 	$("#contenta1").mouseover(function(){
 		$("#li1").css({
 			"width":"206px",
