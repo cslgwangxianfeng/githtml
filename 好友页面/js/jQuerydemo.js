@@ -1,0 +1,6 @@
+$(function(){
+    initEleEvents();
+    	
+});
+
+function initEleEvents(){}
