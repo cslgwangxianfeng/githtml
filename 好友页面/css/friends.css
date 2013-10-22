@@ -9,7 +9,7 @@ a{text-decoration: none;}
 .topa{display: block;width: 220px;height: 95px; margin-left: 100px; float: left;border: 0px; background-color: #fff;font-family: 宋体;font-size: 30px;font-weight: 400;line-height: 100px;color: #6f7562;}
 
 .topa:hover{border-bottom: 5px solid #5de7b2;font-weight: 700;}
-#content{width:1000px;height: auto;background-color: #aaa;margin: 0 auto;background-color: #fff;}
+#content{width:1000px;height: 861px;background-color: #aaa;margin: 0 auto;background-color: #fff;}
 .contentli{width: 550px;height: 207px;padding: 40px 48px;margin-left: 100px;}
 .itm{width: 550px;height: 207px;}
 .itmtop{width: 550px;height: 60px;text-align: left;position: relative;}
@@ -18,6 +18,6 @@ a{text-decoration: none;}
 .itmname{width: 360px;height: 21px;float: left;}
 .itmnamea{width: auto;height: 21px;font-family: 宋体;font-size: 14px;font-weight: 400;line-height:21px;color: #6f7562;}
 .itmtext{width: 360px;height: 22px;margin-top: 17px;float: left;font-family: 宋体;font-size: 14px;font-weight: 400;line-height:22px;color: #6f7562;}
-.itmquxiaogz{display: block;width: 90px;height: 34px;background-color: #ccc;position: absolute;left:460px;top: 0px;font-family: 宋体;font-size: 14px;font-weight: 400;line-height:34px;color: #6f7562;text-align: center; border-radius: 6px ; }
+.itmquxiaogz{display: block;width: 90px;height: 34px;background-color: #ccc;position: absolute;left:460px;top: 0px;font-family: 宋体;font-size: 14px;font-weight: 400;line-height:34px;color: #6f7562;text-align: center; border-radius: 6px ;cursor: pointer; }
 
 .itmbottom{width: 550px;height: 127px;margin-top: 20px;background-color: #ccc;}
